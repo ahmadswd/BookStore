@@ -1,0 +1,39 @@
+#myProgress {
+    width: 100%;
+    background-color: rgb(177, 164, 164);
+  }
+  
+  #myBar {
+    width: 1%;
+    height: 30px;
+    background-color: rgb(58, 170, 58);
+  }
+
+
+  .navbar-custom {
+    color: #FFFFFF;
+    
+}
+
+.mypadd{
+
+margin-left: 10px;
+margin-right: 10px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    /* The image used */
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

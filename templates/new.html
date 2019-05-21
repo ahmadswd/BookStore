@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Welcome to MyBookStore</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+<script src="{{ url_for('static',filename='app.js') }}"></script>
+ 
+</style>
+</head>
+
+
+<body>
+<img src="http://bookreviewbuzz.com/wp-content/uploads/2012/10/add-your-book-logo-300x120.jpg" class="img-fluid" style="align-self: center" alt="Responsive image">
+<div class="container">
+<form method = "post">
+<div class="form-group">
+  <label for="Welcome to the Home Page"></label>
+  <input type="text" name="isbn" id="isbn" class="form-control" placeholder="Enter ISBN" aria-describedby="helpId">
+  <br/>
+  <input type="text" name="name" id="name" class="form-control" placeholder="Enter Book Name" aria-describedby="helpId1">
+  <br/>
+  <input type="text" name="author" id="author" class="form-control" placeholder="Enter Book Author" aria-describedby="helpId2">
+  <br>
+
+  <div class="w3-show-inline-block">
+      <div class="w3-bar">
+  
+  
+        <button type="submit" onclick="move()" class="btn btn-success" style="margin-left: 45%;">Submit</button>
+  <button type="button" onclick="window.location.href='{{ url_for( 'hello' ) }}';" class="btn btn-danger" style="margin-left: 25px;"> Cancel</button>     
+</div>
+  </div>
+</form>
+  <br>
+<br>
+<div class="mypadd">
+  <div id="myProgress">
+      <div id="myBar"></div>
+    </div>
+    </div>
+</div>
+</div>
+</body>
+
+
+</html>
