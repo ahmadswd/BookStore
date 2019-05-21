@@ -1,7 +1,7 @@
 # BookStore
 ## Basic Bookstore that store and show book information
 
-### Usage:
+### Info:
 #### 1. Run Mongod before you try to insert a new book
 > <img src="https://github.com/ahmadswd/BookStore/blob/master/images/mongod.png"/>
 > <br>
