@@ -1,5 +1,5 @@
 # BookStore
-##Basic Bookstore that store and show book information
+## Basic Bookstore that store and show book information
 
 ### Usage:
 > #### 1. Run Mongod before you try to insert a new book
