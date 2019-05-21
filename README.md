@@ -14,3 +14,7 @@
 > <img src="https://github.com/ahmadswd/BookStore/blob/master/images/add_book.png"/>
 > <br>
 > <br>
+#### 4. Check the added values by running the mongo on new terminal as below
+> <img src="https://github.com/ahmadswd/BookStore/blob/master/images/test.png"/>
+> <br>
+> <br>
